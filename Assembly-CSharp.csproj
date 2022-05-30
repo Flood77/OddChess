@@ -53,11 +53,16 @@
     <UnityVersion>2020.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Movement\Movement.cs" />
     <Compile Include="Assets\Scripts\Piece.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\OptionsLoader.cs" />
+    <Compile Include="Assets\Scripts\Movement\PawnMovement.cs" />
+    <Compile Include="Assets\Scripts\Movement\BishopMovement.cs" />
+    <Compile Include="Assets\Scripts\Movement\KnightMovement.cs" />
+    <Compile Include="Assets\Scripts\Movement\RookMovement.cs" />
+    <Compile Include="Assets\Scripts\Movement\QueenMovement.cs" />
+    <Compile Include="Assets\Scripts\Movement\KingMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
